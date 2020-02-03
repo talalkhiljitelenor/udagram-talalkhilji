@@ -1,7 +1,11 @@
+# Code setup
+run `git clone` to clone repo
+
 # Setup Node Environment
 You'll need to create a new node server. Open a new terminal within the project directory and run:
 
-# Initialize a new project: `npm i`
+# Initialize a new project:
+install npm packages using`npm i`
 run the development server with `npm run dev`
 
 # Access following url in postman
