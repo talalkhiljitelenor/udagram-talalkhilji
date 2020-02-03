@@ -17,3 +17,6 @@ Host consists of localhost path and port e.g localhost:3000
 The project was deployed using the AWS Elastic Beanstalk CLI 
 `eb init`, `eb create`, and `eb deploy` commands.
 
+Elasticbean stalk url is as follows
+http://udagram-talalkhilji-dev-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg
+
