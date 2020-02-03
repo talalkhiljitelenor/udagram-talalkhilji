@@ -31,7 +31,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
   //! END @TODO1
 
-  /*app.get( "/filteredimage", async ( req, res ) => {
+  app.get( "/filteredimage", async ( req, res ) => {
 
     let { image_url } = req.query;
 
@@ -43,7 +43,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     let filtered_img_url = await filterImageFromURL( image_url );
   
     res.send(`Local path of downloaded image: ${filtered_img_url}`);
-  } );*/
+  } );
   
   // Root Endpoint
   // Displays a simple message to the user
