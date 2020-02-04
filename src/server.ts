@@ -41,8 +41,9 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     }
 
     let filtered_img_url = await filterImageFromURL( image_url );
-  
-    res.send(`Local path of downloaded image: ${filtered_img_url}`);
+
+    // Used to send image as a response
+    res.sendFile(filtered_img_url);
   } );
   
   // Root Endpoint
